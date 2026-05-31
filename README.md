@@ -95,4 +95,7 @@ best case — roughly halving the search depth for the same cost.
 - Handles click events, turn sequencing, score tracking
 - Calls AI after a 150ms delay (so the human's move renders first)
 
-OUTPUT:
+OUTPUT:<img width="1917" height="1028" alt="Image" src="https://github.com/user-attachments/assets/dece7bbf-0a21-489a-8779-c0cc38a3b535" />
+
+
+<img width="1918" height="973" alt="Image" src="https://github.com/user-attachments/assets/7e5c684d-420a-4a3c-b15b-e39fa6e2687e" />
