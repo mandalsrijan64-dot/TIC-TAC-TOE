@@ -1,4 +1,17 @@
 # Tic-Tac-Toe AI
+## Tic-Tac-Toe Using JavaScript, HTML, and CSS – Description
+
+Tic-Tac-Toe is a simple and interactive web-based game developed using HTML, CSS, and JavaScript. The game is designed for two players who take turns marking spaces in a 3×3 grid with the symbols "X" and "O". The objective is to place three of the same symbols consecutively in a row, column, or diagonal before the opponent does. This project is an excellent way to learn the fundamentals of front-end web development and game logic implementation.
+
+HTML is used to create the structure of the game, including the game board, player information, status messages, and control buttons such as "Restart Game". CSS is responsible for the visual appearance of the game, providing an attractive layout, responsive design, animations, and styling for the grid cells. JavaScript handles the game functionality, including player turns, move validation, winner detection, score updates, and game reset operations.
+
+The game begins with an empty 3×3 grid. Players click on a cell to place their symbol. JavaScript tracks each move and updates the board accordingly. After every turn, the program checks all possible winning combinations to determine if a player has won the game. If all cells are filled without a winner, the game declares a draw. The application then allows players to restart and play again.
+
+Additional features can be incorporated to enhance the user experience, such as score tracking, sound effects, animations, highlighting the winning combination, dark mode support, and single-player mode against a computer opponent. More advanced versions can implement Artificial Intelligence using algorithms like Minimax to create an unbeatable computer player.
+
+One of the major advantages of this project is its simplicity and educational value. It helps developers understand event handling, DOM manipulation, conditional logic, arrays, functions, and user interface design. Since the game runs entirely in a web browser, it is lightweight, platform-independent, and requires no additional software installation.
+
+Overall, the Tic-Tac-Toe game using JavaScript, HTML, and CSS is a beginner-friendly project that combines programming logic with web design. It provides practical experience in developing interactive applications and serves as a strong foundation for creating more complex browser-based games and web applications in the future.
 
 An unbeatable Tic-Tac-Toe AI built with vanilla HTML, CSS, and JavaScript.
 Implements both **Minimax** and **Minimax with Alpha-Beta Pruning**.
@@ -81,3 +94,5 @@ best case — roughly halving the search depth for the same cost.
 ### js/main.js
 - Handles click events, turn sequencing, score tracking
 - Calls AI after a 150ms delay (so the human's move renders first)
+
+OUTPUT:
